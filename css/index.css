@@ -68,6 +68,13 @@ h1{
     box-shadow: 0 0.125rem 0.313rem;
 }
 
+#Experience li {
+    text-align: left;
+}
+
+#Experience p {
+    text-align: right;
+}
 
 #Connect {
     background-color: rgb(241, 211, 221);
