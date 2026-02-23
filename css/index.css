@@ -61,20 +61,13 @@ h1{
 #Experience {
     text-align: center;
     background-color: rgb(205, 235, 205);
-    padding: 20 px;
-    display: flexbox;
+    padding: 20px;
     margin-bottom: 0.938rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.125rem 0.313rem;
+    .experience { display: flex; justify-content: space-between; align-items: center; }
 }
 
-#Experience li {
-    text-align: left;
-}
-
-#Experience p {
-    text-align: right;
-}
 
 #Connect {
     background-color: rgb(241, 211, 221);
@@ -110,4 +103,52 @@ h1{
     margin-bottom: 0.938rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.125rem 0.313rem;
+}
+
+
+
+
+/* ================================================================== */
+/* TABLET */
+/* ================================================================== */
+
+@media (max-width: 768px){
+header nav ul {
+    gap: 2rem
+}
+
+#nav li {
+    display:block;
+    margin: 5px 0;
+}
+
+#nav ul {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+#nav li a {
+    padding: 2px ;
+    font-size: 1rem;
+}
+h1 {
+    font-size: 2.5em;
+    margin-top: 3rem;
+}
+}
+
+/* ================================================================== */
+/* DESKTOP */
+/* ================================================================== */
+@media (min-width: 1024px) {
+  
+  h1 {
+    font-size: 3.5rem;
+    margin-top: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
 }
