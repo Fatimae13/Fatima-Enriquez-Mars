@@ -61,20 +61,13 @@ h1{
 #Experience {
     text-align: center;
     background-color: rgb(205, 235, 205);
-    padding: 20 px;
-    display: flexbox;
+    padding: 20px;
     margin-bottom: 0.938rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.125rem 0.313rem;
+    .experience { display: flex; justify-content: space-between; align-items: center; }
 }
 
-#Experience li {
-    text-align: left;
-}
-
-#Experience p {
-    text-align: right;
-}
 
 #Connect {
     background-color: rgb(241, 211, 221);
