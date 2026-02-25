@@ -97,12 +97,17 @@ h1{
 }
 
 #Skills {
+    list-style: none; 
     background-color: rgb(238, 211, 241);
     text-align: center;
     display: block;
     margin-bottom: 0.938rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.125rem 0.313rem;
+}
+
+#Skills ul {
+    list-style: none;
 }
 
 

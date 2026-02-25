@@ -20,9 +20,9 @@ const skills= ["JavaScript", "HTML", "CSS", "Git", "GitHub"];
 const skillsSelection = document.getElementById("Skills");
 const skillsList = skillsSelection.querySelector("ul");
 
-for(let i=0; i< skills.lenght; i++) {
-    const skill= document.createElement("li");
-    skill.innerText = skill[i];
-    skill.appendChild(skills);
+for(let i = 0; i < skills.length; i++) {
+    const li = document.createElement("li");
+    li.innerText = skills[i];
+    skillsList.appendChild(li);
 
 }
