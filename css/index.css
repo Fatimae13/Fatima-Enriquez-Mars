@@ -38,7 +38,6 @@ body{
 
 h1{
     text-align: center;
-    font-size: 1.5em;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
     color:rgb(245, 110, 121);
@@ -48,6 +47,7 @@ h1{
 
 #About {
     text-align: center;
+    padding: 5px;
     background-color: rgb(196, 224, 234);
     border-radius: 0.5rem;
     box-shadow: 0 0.125rem 0.313rem;
@@ -61,7 +61,7 @@ h1{
 #Experience {
     text-align: center;
     background-color: rgb(205, 235, 205);
-    padding: 20px;
+    padding: 5px;
     margin-bottom: 0.938rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.125rem 0.313rem;
@@ -72,7 +72,7 @@ h1{
 #Connect {
     background-color: rgb(241, 211, 221);
     text-align: center;
-    display: flexbox;
+    padding: 5px;
     margin-bottom: 0.938rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.125rem 0.313rem;
@@ -89,6 +89,7 @@ h1{
 
 #Projects {
     background-color: rgb(241, 221, 211);
+    padding: 5px;
     text-align: center;
     display: block;
     margin-bottom: 0.938rem;
@@ -98,9 +99,78 @@ h1{
 
 #Skills {
     background-color: rgb(238, 211, 241);
+    padding: 5px;
     text-align: center;
     display: block;
     margin-bottom: 0.938rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.125rem 0.313rem;
+}
+
+#Skills ul {
+    list-style: none;
+}
+
+
+
+
+/* ================================================================== */
+/* TABLET */
+/* ================================================================== */
+
+@media (max-width: 768px){
+header nav ul {
+    gap: 2rem
+}
+
+#nav li {
+    display:block;
+    margin: 5px 0;
+}
+
+#nav ul {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+#nav li a {
+    padding: 2px ;
+    font-size: 1rem;
+}
+h1 {
+    font-size: 2.5em;
+    margin-top: 3rem;
+}
+}
+
+/* ================================================================== */
+/* PHONE */
+/* ================================================================== */
+@media (min-width: 1024px){
+
+   nav li a {
+    font-size: 1.25rem;
+}
+  
+  h1 {
+    font-size: 3rem;
+    margin-top: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #About {
+    font-size: 1.25rem;
+  }
+
+  #Experience {
+    font-size: 1.25em;
+  }
+
+  #Connect a {
+    font-size: 1.25rem;
+  }
 }
