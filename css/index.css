@@ -61,7 +61,7 @@ h1{
 #Experience {
     text-align: center;
     background-color: rgb(205, 235, 205);
-    padding: 5px;
+    padding: 20px;
     margin-bottom: 0.938rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.125rem 0.313rem;
@@ -98,6 +98,7 @@ h1{
 }
 
 #Skills {
+    list-style: none; 
     background-color: rgb(238, 211, 241);
     padding: 5px;
     text-align: center;
@@ -160,17 +161,5 @@ h1 {
 
   h2 {
     font-size: 1.5rem;
-  }
-
-  #About {
-    font-size: 1.25rem;
-  }
-
-  #Experience {
-    font-size: 1.25em;
-  }
-
-  #Connect a {
-    font-size: 1.25rem;
   }
 }
